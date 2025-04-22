@@ -3,4 +3,6 @@ project(dissertation)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(dissertation main.cpp)
+add_executable(dissertation Source/main.cpp
+        Source/Prior.cpp
+        Include/Prior.h)
